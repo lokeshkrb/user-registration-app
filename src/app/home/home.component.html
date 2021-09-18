@@ -1,0 +1,10 @@
+﻿<div class="p-4">
+    <div class="container">
+        <h1>Hi {{user.firstName}} {{user.lastName}}</h1>
+        <h3>Email: {{user.emailAddress}}</h3>
+        <h2>File Details</h2>
+        <a href="#" (click)="download($event)">{{user.fileName}}</a>
+        <h3>Word Count: {{user.wordCount}}</h3>
+    </div>
+</div>
+
